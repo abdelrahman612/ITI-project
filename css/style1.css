@@ -1,0 +1,86 @@
+/**********************style**********************/
+body
+{
+  margin: 0px ;
+  padding: 0px;	
+  overflow: hidden;
+}
+
+nav 
+{
+ 	background: black;
+ 	width: 100%;
+ 	height: 70px;
+	margin-top: 0px;
+}
+
+nav #titleGame
+{
+ margin:0px;
+ padding:20px;
+ color: lime;
+font-size: 32px;
+}
+nav #titleGameDiv
+{
+ width: 80px;
+ float: left;
+ margin-top: 20px;	
+}
+#listNav ul 
+{
+ 	padding: 0px;
+	margin: 0px;
+	padding-top: 25px;
+  	
+}
+#listNav ul li 
+{
+  display: inline;	
+}
+ a
+{
+  text-decoration: none;
+  color: lime;
+  font-size: 28px;
+  padding: 0px 20px;
+}
+
+nav #listNav 
+{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+/*************************the game ***********************/
+
+#mycanvas
+{
+ 	width: 1320px;
+	height: 500px;
+	margin: 50px 10px;
+	margin-top: 5px;
+	border: 5px solid black;
+	background: linear-gradient(#29d 0%, #8df 50%, #696 50%, #3a3);
+}
+p
+{
+	display: inline;
+}
+input
+{
+  color: firebrick;
+  border: none;
+  width: 200px;
+	font-size: 50px
+}
+#hscore
+{
+  font-size: 32px;	
+  margin-left: 500px;	
+  margin-bottom:0; 
+  margin-top: 15px;
+}
+
+
